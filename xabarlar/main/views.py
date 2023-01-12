@@ -21,6 +21,8 @@ def home(request):
 
     return render(request, 'main/home.html')
 
+def salom():
+    print('Salom')
 
 def about(request):
     return render(request, 'main/about.html')
